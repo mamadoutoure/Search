@@ -25,7 +25,7 @@
 
       <% @places.each do |place| %>
           <tr>
-            <td><%=place["name"]   %> </td>
+            <td><%= link_to(place["name"], show_path(place["factual_id"]) )  %> </td>
             <td><%=place["address"]   %> </td>
             <td><%=place["postcode"]   %> </td>
           </tr>

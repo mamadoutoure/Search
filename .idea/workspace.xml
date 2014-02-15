@@ -1,24 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fad994ed-cb28-4fb1-806b-c8606c666f07" name="Default" comment="" />
+    <list default="true" id="fad994ed-cb28-4fb1-806b-c8606c666f07" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/finder.rb" afterPath="$PROJECT_DIR$/app/models/finder.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/locations/index.html.erb" afterPath="$PROJECT_DIR$/app/views/locations/index.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/locations_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/locations_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
+    </list>
     <ignored path="Search.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/location_controller.rb" changelist="fad994ed-cb28-4fb1-806b-c8606c666f07" time="1392396885260" ignored="false" />
     <file path="/Gemfile" changelist="fad994ed-cb28-4fb1-806b-c8606c666f07" time="1392396547291" ignored="false" />
-    <file path="/Dummy.txt" changelist="fad994ed-cb28-4fb1-806b-c8606c666f07" time="1392423332108" ignored="false" />
+    <file path="/Dummy.txt" changelist="fad994ed-cb28-4fb1-806b-c8606c666f07" time="1392438081587" ignored="false" />
     <file path="$USER_HOME$/NetBeansProjects/Tutorat/app/views/layouts/_header.html.erb" changelist="fad994ed-cb28-4fb1-806b-c8606c666f07" time="1392397580540" ignored="false" />
-    <file path="/index.html.erb" changelist="fad994ed-cb28-4fb1-806b-c8606c666f07" time="1392419669653" ignored="false" />
+    <file path="/index.html.erb" changelist="fad994ed-cb28-4fb1-806b-c8606c666f07" time="1392438288486" ignored="false" />
     <file path="/application.rb" changelist="fad994ed-cb28-4fb1-806b-c8606c666f07" time="1392398660322" ignored="false" />
     <file path="/development.rb" changelist="fad994ed-cb28-4fb1-806b-c8606c666f07" time="1392398694629" ignored="false" />
-    <file path="/routes.rb" changelist="fad994ed-cb28-4fb1-806b-c8606c666f07" time="1392398769829" ignored="false" />
+    <file path="/routes.rb" changelist="fad994ed-cb28-4fb1-806b-c8606c666f07" time="1392438389204" ignored="false" />
     <file path="$PROJECT_DIR$/app/helpers/locations_helper.rb" changelist="fad994ed-cb28-4fb1-806b-c8606c666f07" time="1392398832458" ignored="false" />
     <file path="$PROJECT_DIR$/test/unit/helpers/locations_helper_test.rb" changelist="fad994ed-cb28-4fb1-806b-c8606c666f07" time="1392398832458" ignored="false" />
     <file path="$PROJECT_DIR$/test/functional/locations_controller_test.rb" changelist="fad994ed-cb28-4fb1-806b-c8606c666f07" time="1392398832458" ignored="false" />
-    <file path="/locations_controller.rb" changelist="fad994ed-cb28-4fb1-806b-c8606c666f07" time="1392421285400" ignored="false" />
-    <file path="/Ruby Console" changelist="fad994ed-cb28-4fb1-806b-c8606c666f07" time="1392418035191" ignored="false" />
-    <file path="/finder.rb" changelist="fad994ed-cb28-4fb1-806b-c8606c666f07" time="1392423081690" ignored="false" />
+    <file path="/locations_controller.rb" changelist="fad994ed-cb28-4fb1-806b-c8606c666f07" time="1392438526935" ignored="false" />
+    <file path="/Ruby Console" changelist="fad994ed-cb28-4fb1-806b-c8606c666f07" time="1392439261764" ignored="false" />
+    <file path="/finder.rb" changelist="fad994ed-cb28-4fb1-806b-c8606c666f07" time="1392439668102" ignored="false" />
     <file path="/fragment.rb" changelist="fad994ed-cb28-4fb1-806b-c8606c666f07" time="1392422715169" ignored="false" />
+    <file path="/a.dummy" changelist="fad994ed-cb28-4fb1-806b-c8606c666f07" time="1392438162429" ignored="false" />
+    <file path="/show.html.erb" changelist="fad994ed-cb28-4fb1-806b-c8606c666f07" time="1392439783083" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,15 +54,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/application.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="5" selection-start="2675" selection-end="2675" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="development.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
           <provider selected="true" editor-type-id="text-editor">
@@ -68,16 +66,16 @@
       <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/routes.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="39" selection-start="163" selection-end="163" vertical-scroll-proportion="0.0">
+            <state line="4" column="18" selection-start="189" selection-end="189" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="locations_controller.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="locations_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/locations_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="2" selection-start="166" selection-end="166" vertical-scroll-proportion="0.31914893">
+            <state line="12" column="29" selection-start="219" selection-end="219" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -86,7 +84,16 @@
       <file leaf-file-name="finder.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/finder.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="34" selection-start="442" selection-end="442" vertical-scroll-proportion="0.0">
+            <state line="25" column="12" selection-start="598" selection-end="598" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="show.html.erb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/locations/show.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="4" selection-start="172" selection-end="172" vertical-scroll-proportion="0.63920456">
               <folding />
             </state>
           </provider>
@@ -113,7 +120,7 @@
       <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/locations/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="0" selection-start="243" selection-end="243" vertical-scroll-proportion="-4.25">
+            <state line="27" column="48" selection-start="493" selection-end="493" vertical-scroll-proportion="-11.75">
               <folding />
             </state>
           </provider>
@@ -156,10 +163,11 @@
         <option value="$PROJECT_DIR$/config/database.yml" />
         <option value="$PROJECT_DIR$/config/application.rb" />
         <option value="$PROJECT_DIR$/config/environments/development.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/locations_controller.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/views/locations/index.html.erb" />
         <option value="$PROJECT_DIR$/app/models/finder.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/locations_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/locations/show.html.erb" />
       </list>
     </option>
   </component>
@@ -356,12 +364,18 @@
     <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="org.jetbrains.plugins.ruby.settings.RubyIdeSdkConfigurable" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="RakeTaksPopup.undocumentedIncluded" value="false" />
     <property name="RailsGeneratorsPopup.hiddenIncluded" value="false" />
     <property name="GoToClass.includeJavaFiles" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
   </component>
-  <component name="RunManager" selected="Rails.Development: Search">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/views/locations" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Rake.routes">
     <configuration default="false" name="Rails console: Search" type="IrbRunConfigurationType" factoryName="IRB console" temporary="true">
       <module name="Search" />
       <IRB_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -381,6 +395,32 @@
       <IRB_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/script/rails" />
       <IRB_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="console" />
       <IRB_RUN_CONFIG NAME="IS_RAILS_CONSOLE" VALUE="true" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="routes" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
+      <module name="Search" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="routes" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
       <RunnerSettings RunnerId="RubyRunner" />
       <ConfigurationWrapper RunnerId="RubyRunner" />
       <method />
@@ -680,17 +720,20 @@
       <ConfigurationWrapper RunnerId="RubyRunner" />
       <method />
     </configuration>
-    <list size="5">
+    <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Rake.test" />
       <item index="1" class="java.lang.String" itemvalue="Rake.spec" />
       <item index="2" class="java.lang.String" itemvalue="Rails.Production: Search" />
       <item index="3" class="java.lang.String" itemvalue="Rails.Development: Search" />
       <item index="4" class="java.lang.String" itemvalue="IRB console.Rails console: Search" />
+      <item index="5" class="java.lang.String" itemvalue="Rake.routes" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="IRB console.Rails console: Search" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Rake.routes" />
         <item index="1" class="java.lang.String" itemvalue="IRB console.Rails console: Search" />
+        <item index="2" class="java.lang.String" itemvalue="IRB console.Rails console: Search" />
+        <item index="3" class="java.lang.String" itemvalue="IRB console.Rails console: Search" />
       </list>
     </recent_temporary>
   </component>
@@ -722,14 +765,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1301" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32866043" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27498" sideWeight="0.6713396" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27498" sideWeight="0.6713396" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39719626" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -810,22 +853,22 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="ruby-line">
           <url>file://$PROJECT_DIR$/app/models/finder.rb</url>
-          <line>18</line>
+          <line>21</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="ruby-line">
           <url>file://$PROJECT_DIR$/app/models/finder.rb</url>
-          <line>16</line>
+          <line>19</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="ruby-line">
           <url>file://$PROJECT_DIR$/app/models/finder.rb</url>
-          <line>12</line>
+          <line>15</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="ruby-line">
           <url>file://$PROJECT_DIR$/app/models/finder.rb</url>
-          <line>8</line>
+          <line>11</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
@@ -833,13 +876,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config/application.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="5" selection-start="2675" selection-end="2675" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="29" column="1" selection-start="1173" selection-end="1173" vertical-scroll-proportion="0.0">
@@ -882,13 +918,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="39" selection-start="163" selection-end="163" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.16/lib/active_support/notifications/instrumenter.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="0" selection-start="549" selection-end="549" vertical-scroll-proportion="0.0">
@@ -899,13 +928,6 @@
     <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.16/lib/action_controller/metal/rescue.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="31" column="0" selection-start="1117" selection-end="1117" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/database.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -924,23 +946,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/locations/index.html.erb">
+    <entry file="file://$PROJECT_DIR$/config/database.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="243" selection-end="243" vertical-scroll-proportion="-4.25">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/finder.rb">
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="34" selection-start="442" selection-end="442" vertical-scroll-proportion="0.0">
+        <state line="4" column="18" selection-start="189" selection-end="189" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/locations/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="48" selection-start="493" selection-end="493" vertical-scroll-proportion="-11.75">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/locations_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="2" selection-start="166" selection-end="166" vertical-scroll-proportion="0.31914893">
+        <state line="12" column="29" selection-start="219" selection-end="219" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/finder.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="12" selection-start="598" selection-end="598" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/locations/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="4" selection-start="172" selection-end="172" vertical-scroll-proportion="0.63920456">
           <folding />
         </state>
       </provider>

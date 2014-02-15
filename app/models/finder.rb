@@ -2,6 +2,9 @@ class Finder
   # To change this template use File | Settings | File Templates.
 
   require "factual"
+
+
+
     def self.search (parms)
     factual = Factual.new("rcqLU5Ztp5fGaVasCLip4nzXubqpPBQaTDW0rhbV", "rgDOhufaGqpomml5Q8D6VQfLUtYWvnsby4aZqTC7")
     query = factual.table("places")
@@ -17,6 +20,14 @@ class Finder
       query =  query.search(parms['name'])
     end
     query.rows
+    end
+
+
+  def  self.get_place_detail(id)
+      factual = Factual.new("rcqLU5Ztp5fGaVasCLip4nzXubqpPBQaTDW0rhbV", "rgDOhufaGqpomml5Q8D6VQfLUtYWvnsby4aZqTC7")
+      factual.table("places").row(id)
   end
+
+
 
 end

@@ -9,5 +9,9 @@ class LocationsController < ApplicationController
     end
   end
 
+  def show
+    @detail = Finder.get_place_detail(params["id"] )
+
+  end
 
 end

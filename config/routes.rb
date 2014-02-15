@@ -2,8 +2,7 @@ Search::Application.routes.draw do
   # The priority is based upon order of creation:
   # first created -> highest priority.
   match 'locations/index' => 'locations#index'
-  # Sample of regular route:
-  #   match 'products/:id' => 'catalog#view'
+  match 'locations/show/:id' => 'locations#show', :as=> 'show'
   # Keep in mind you can assign values other than :controller and :action
 
   # Sample of named route:
