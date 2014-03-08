@@ -1,3 +1,4 @@
+<% content_for :top do %>
 <%= form_tag do %>
     City:
     <%= text_field_tag :city %>
@@ -10,11 +11,13 @@
     <%= text_field_tag :zipcode %>
     <%= submit_tag "Search", :class=>'button' %>
 
-
+ <% end %>
 <% end %>
 
+
+<% content_for :detail do %>
 <% if @places.any? %>
-    <table>
+    <table id="detail">
           <tr>
           <th>Name</th>
            <th>address</th>
@@ -32,4 +35,20 @@
       <%end %>
     </table>
 <%end %>
+<% end %>
+
+
+<script type="text/javascript">
+
+    var places = [];
+    var titles = [];
+    var descriptions = [];
+    <% @places.each do |place| %>
+    places.push(new google.maps.LatLng(<%=  place["latitude"] %>, <%= place["longitude"] %>));
+    titles.push("<%= place["name"].to_s %>");
+    titles.push("<%= place["address"].to_s %>");
+    <%  end %>
+    carte(places, titles, descriptions );
+
+</script>
 

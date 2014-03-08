@@ -1,0 +1,49 @@
+
+
+
+var markersArry = [];
+var tabl = []
+var search = "1";
+var map;
+
+  function carte(places, titles, descriptions)
+  {
+       mapDiv = document.getElementById('map');
+       options = { zoom: 5, center: places[0], mapTypeId: google.maps.MapTypeId.ROADMAP};
+       map = new google.maps.Map(mapDiv, options);
+
+    ////////////////////////////////
+    var infowindow;
+   for (var j = 0; j < markersArry.length; j++)
+    {
+    markersArry[j].setMap(null);}
+
+    for (var i = 0; i < places.length; i++)
+
+    { var marker = new google.maps.Marker({position: places[i], map: map, title: titles[i]});
+
+    markersArry.push(marker);
+         (function(i, marker)
+     {
+
+      // Adding an event-listener
+      google.maps.event.addListener
+      (marker, 'click', function()
+        {
+               // Creating a new infowindow
+           // Check to see if the infowindow already exists
+           if (!infowindow)
+           {
+                     infowindow = new google.maps.InfoWindow();
+           }
+           infowindow.setContent(descriptions[i]);
+             infowindow.open(map, marker);
+            }
+      );
+
+     })(i, marker);
+    }
+ }   // function carte
+
+
+

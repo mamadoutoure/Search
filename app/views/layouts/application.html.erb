@@ -4,11 +4,20 @@
   <title>Search</title>
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
+    <%= javascript_include_tag params[:controller] if Search::Application.assets.find_asset("#{params[:controller]}") %>
+  <script type="text/javascript" src="http://maps.google.com/maps/api/js?libraries=places&sensor=false&v=3.10"></script>
+
   <%= csrf_meta_tags %>
 </head>
 <body>
+<%= yield :top %>
 
-<%= yield %>
+<%= yield :detail %>
 
+
+
+<div id="map">
+  <%= yield  %>
+ </div>
 </body>
 </html>
